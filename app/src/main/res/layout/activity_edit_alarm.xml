@@ -10,13 +10,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/create"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:checked="false"
-        android:onClick="OnToggleClicked" />
+        android:text="Create Alarm" />
 
 </LinearLayout>
